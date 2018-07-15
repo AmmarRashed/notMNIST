@@ -4,6 +4,7 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 - <a href="https://www.udacity.com/">Udacity</a>
   - <a href="https://classroom.udacity.com/courses/ud730"> Intro to Deep Learning</a>
     - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/1_notmnist.ipynb">Assignment 1</a>
+    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/2_fullyconnected.ipynb">Assignment 2</a>
 
 ## Data
 - <a href="http://yaroslavvb.com/upload/notMNIST/"> notMNIST </a>
