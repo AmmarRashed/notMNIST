@@ -5,7 +5,8 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
   - <a href="https://classroom.udacity.com/courses/ud730"> Intro to Deep Learning</a>
     - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/1_notmnist.ipynb">Assignment 1</a>
 
-## <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
+## Performance
+- <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
 
 ## Dependancies
