@@ -10,7 +10,7 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
 
 ## Dependancies
-**Tested on Python 3.5
+**Tested on Python 3.5**
 - <a href="http://scikit-learn.org/"> scikit-learn </a>
 - <a href="http://www.numpy.org/"> NumPy </a>
 - <a href="https://ipython.org/"> IPython</a>
