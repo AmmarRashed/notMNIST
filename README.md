@@ -6,9 +6,9 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
     - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/1_notmnist.ipynb">Assignment 1</a>
 
 ## Data
-- <a href="https://www.kaggle.com/eranartzi/notmnist-cnn-3-conv2d-3-pooling-2-fc/data"> notMNIST </a>
+- <a href="http://yaroslavvb.com/upload/notMNIST/"> notMNIST </a>
 <img src="https://lh4.googleusercontent.com/proxy/b94FV3AHSfDPdqNvd0PXCXnQLzSZquHEoQqziiMTHOvbuVP3xIjVH92yYzpOCCqqnUOS0PjjFDjMawC905m19Rs=w1200-h630-p-k-no-nu">
-The MNIST dataset is one of the best known image classification problems out there, and a veritable classic of the field of machine learning. This dataset is more challenging version of the same root problem: classifying letters from images. This is a multiclass classification dataset of glyphs of English letters A - J.
+529119 28 x 28 grayscale images of letters A - J, sorted into directories by letter. There are 52920 images for letters A - I, and 52919 images for letter J. This dataset is more challenging version of the image classification problem than <a href="http://yann.lecun.com/exdb/mnist/">MNIST</a>: classifying letters from images. It is a multiclass classification dataset of glyphs of English letters A - J.
 
 ## Performance
 - <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
