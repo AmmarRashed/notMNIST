@@ -18,9 +18,12 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 **Trained using GTX 1070**
 
 - Full batch: Single Layer Logistic Regression with TensorFlow
+
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_perf_fullbatch.png?raw=true">
+
 - Mini batch
   - batch_size=1000, took: 155 seconds
+  
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/single_layer_lr.png?raw=true">
 
 ## Dependancies
