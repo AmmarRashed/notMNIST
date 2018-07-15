@@ -12,7 +12,7 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 
 ## Training
 
-<a href="https://www.zotac.com/sg/product/graphics_card/zotac-geforce-gtx-1070-amp-edition"> **Trained using Zotac GTX 1070 AMP edition 8GB** </a>
+**Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-geforce-gtx-1070-amp-edition">  Zotac GTX 1070 AMP edition 8GB </a> **
 
 - <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
