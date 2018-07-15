@@ -13,6 +13,10 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 ## Performance
 - <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
+- Full batch: Single Layer Logistic Regression with TensorFlow
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_perf_fullbatch.png?raw=true">
+- Mini batch (`batch_size=1000`)
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/single_layer_lr.png?raw=true">
 
 ## Dependancies
 **Tested on Python 3.5**
