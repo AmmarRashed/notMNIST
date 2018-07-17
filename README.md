@@ -16,17 +16,37 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-geforce-gtx-1070-amp-edition">  Zotac GTX 1070 AMP edition 8GB </a>
 
 - <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
+
+  - 86.3% accuracy
+
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
 
-- Full batch: Single Layer Logistic Regression with TensorFlow
+- Full batch: (linear) Logistic Regression with TensorFLow
+  - 88% accuracy
 
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_perf_fullbatch.png?raw=true">
 
-- Mini batch
+- Mini batch (linear)
+  - 90% accuracy
   - batch_size=1000, took: 155 seconds
   
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/single_layer_lr.png?raw=true">
 
+- Mini batch (ReLU)
+  - 95% accuracy
+  - took: 188 seconds
+  <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_l2_reg.png?raw=true">
+
+- ReLU with L2-regularization
+  - 95.9% accuracy
+  - took: 192 seconds
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
+
+
+- ReLU with dropout+L2-regularization
+  - 95.7% accuracy
+  - took: 208 seconds
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
 ## Dependancies
 **Tested on Python 3.5**
 - <a href="http://scikit-learn.org/"> scikit-learn </a>
