@@ -48,6 +48,25 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
   - took: 208 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
 
+
+- CNN with dropout+L2-regularization (similar to <a href="http://yann.lecun.com/exdb/lenet/">LeNet</a>)
+  - 95.5% accuracy
+  - took: 391.5 seconds
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/CNN.png?raw=true">
+
+
+- CNN inception module (concatenation)
+  - 95.1% accuracy
+  - took: 554 seconds
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/inception_concat.png?raw=true">
+
+- CNN inception module (reduce mean)
+  - 93.6% accuracy
+  - took: 528.5 seconds
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/inception_avg.png?raw=true">
+
+
+
 ## Dependancies
 
 **Tested on Python 3.5**
