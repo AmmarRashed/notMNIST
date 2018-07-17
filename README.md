@@ -47,7 +47,9 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
   - 95.7% accuracy
   - took: 208 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
+
 ## Dependancies
+
 **Tested on Python 3.5**
 - <a href="http://scikit-learn.org/"> scikit-learn </a>
 - <a href="http://www.numpy.org/"> NumPy </a>
