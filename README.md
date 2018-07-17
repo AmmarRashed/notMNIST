@@ -17,7 +17,7 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
 
 - <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
 
-  - 86.3% accuracy
+  - 84% accuracy
 
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
 
