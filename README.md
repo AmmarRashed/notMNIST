@@ -1,10 +1,17 @@
 # notMNIST
 Letter recognition Logistic Regression classifier trained on notMNIST (alphabet A-J)
-
+</br>
+<img src="https://camo.githubusercontent.com/a71107803d3190eb032499318ac19f0140a87070/687474703a2f2f7363696b69742d6c6561726e2e6f72672f737461626c652f5f696d616765732f7363696b69742d6c6561726e2d6c6f676f2d6e6f746578742e706e67">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/2000px-TensorFlowLogo.svg.png" width=200>
 - <a href="https://www.udacity.com/">Udacity</a>
   - <a href="https://classroom.udacity.com/courses/ud730"> Intro to Deep Learning</a>
-    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/1_notmnist.ipynb">Assignment 1</a>
-    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/2_fullyconnected.ipynb">Assignment 2</a>
+    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/1_notmnist.ipynb">Assignment 1: notMNIST</a>
+    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/2_fullyconnected.ipynb">Assignment 2: Fully Connected</a>
+    
+    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/3_regularization.ipynb">Assignment 3: Regularization</a>
+    
+    - <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/udacity/4_convolutions.ipynb">Assignment 4: Convulotions</a>
+    
 
 ## Data
 - <a href="http://yaroslavvb.com/upload/notMNIST/"> notMNIST </a>
