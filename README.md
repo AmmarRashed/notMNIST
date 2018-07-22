@@ -67,9 +67,10 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
 
 
 
-## Dependancies
+## Libraries
 
 **Tested on Python 3.5**
+- <a href="https://www.tensorflow.org/"> TensorFlow </a>
 - <a href="http://scikit-learn.org/"> scikit-learn </a>
 - <a href="http://www.numpy.org/"> NumPy </a>
 - <a href="https://ipython.org/"> IPython</a>
