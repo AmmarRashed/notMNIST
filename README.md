@@ -45,7 +45,7 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
   - took: 188 seconds
   <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_l2_reg.png?raw=true">
 
-- ReLU with L2-regularization
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_MLP_relu_L2_regularization.ipynb">ReLU with L2-regularization</a>
   - 95.9% accuracy
   - took: 192 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
