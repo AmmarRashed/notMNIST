@@ -22,9 +22,10 @@ Letter recognition Logistic Regression classifier trained on notMNIST (alphabet 
 
 Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-geforce-gtx-1070-amp-edition">  Zotac GTX 1070 AMP edition 8GB </a>
 
-- <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> Sklearn Logistic Regression </a>
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/sklearn_lr.ipynb"> Sklearn Logistic Regression </a>
 
   - 84% accuracy
+  - <a href="http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html"> reference</a>
 
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/sklearn_perf.png?raw=true">
 
@@ -33,13 +34,13 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
 
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_perf_fullbatch.png?raw=true">
 
-- Mini batch (linear)
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_Logistic_Regression.ipynb">Mini batch</a> (linear)
   - 90% accuracy
   - batch_size=1000, took: 155 seconds
   
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/single_layer_lr.png?raw=true">
 
-- Mini batch (ReLU)
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_MLP_relu.ipynb">Mini batch (ReLU) </a>
   - 95% accuracy
   - took: 188 seconds
   <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_l2_reg.png?raw=true">
@@ -50,28 +51,32 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
 
 
-- ReLU with dropout+L2-regularization
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_MLP_relu_L2_regularization.ipynb">ReLU with dropout+L2-regularization</a>
   - 95.7% accuracy
   - took: 208 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/tf_relu_dropout.png?raw=true">
 
 
-- CNN with dropout+L2-regularization (similar to <a href="http://yann.lecun.com/exdb/lenet/">LeNet</a>)
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/ConvNet.ipynb">CNN with dropout+L2-regularization </a> (similar to <a href="http://yann.lecun.com/exdb/lenet/">LeNet</a>)
   - 95.5% accuracy
   - took: 391.5 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/CNN.png?raw=true">
 
 
-- CNN inception module (concatenation)
-  - 95.1% accuracy
-  - took: 554 seconds
-<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/inception_concat.png?raw=true">
-
-- CNN inception module (reduce mean)
-  - 93.6% accuracy
-  - took: 528.5 seconds
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/CNN_Inception.ipynb">CNN inception module </a>
+  - concatenation
+    - 95.1% accuracy
+    - took: 554 seconds
+    <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/inception_concat.png?raw=true">
+  - reduce mean
+    - 93.6% accuracy
+    - took: 528.5 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/inception_avg.png?raw=true">
 
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_RNN.ipynb">RNN (CPU) </a>
+  - 86.5% accuracy
+  - took: 589.3 seconds
+<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/rnn.png?raw=true">
 
 
 ## Libraries
