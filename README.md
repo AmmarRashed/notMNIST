@@ -73,10 +73,19 @@ Trained using <a href="https://www.zotac.com/sg/product/graphics_card/zotac-gefo
     - took: 528.5 seconds
 <img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/inception_avg.png?raw=true">
 
-- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_RNN.ipynb">RNN (CPU) </a>
-  - 86.5% accuracy
-  - took: 589.3 seconds
-<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/rnn.png?raw=true">
+- <a href="https://github.com/AmmarRashed/notMNIST/blob/master/TF_RNNs.ipynb">RNNs </a>
+	- Basic RNN
+		- 90.5% accuracy
+		- took: 125.7 seconds
+		<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/rnn.png?raw=true">
+	- LSTM
+		- 94.1% accuracy
+		- 474 seconds
+		<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/lstm.png?raw=true">
+	- 2 GRUs
+		- 94.4% accuracy
+		- 1440 seconds
+		<img src="https://github.com/AmmarRashed/notMNIST/blob/master/misc/multi_gru.png?raw=true">
 
 
 ## Libraries
