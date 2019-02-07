@@ -1,5 +1,5 @@
 # notMNIST
-Letter recognition Logistic Regression classifier trained on notMNIST (alphabet A-J)
+Letter recognition classifiers trained on notMNIST (alphabet A-J)
 </br>
 <img src="https://camo.githubusercontent.com/a71107803d3190eb032499318ac19f0140a87070/687474703a2f2f7363696b69742d6c6561726e2e6f72672f737461626c652f5f696d616765732f7363696b69742d6c6561726e2d6c6f676f2d6e6f746578742e706e67">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/2000px-TensorFlowLogo.svg.png" width=200>
